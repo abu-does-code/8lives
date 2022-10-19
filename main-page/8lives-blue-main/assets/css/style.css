@@ -10,7 +10,7 @@ body {
 	width: 100%;
 	min-height: 100px;
 	background:  #47B5FF;
-	box-shadow: 0 10px 20px rgb(0, 0, 0), 0 6px 6px rgb(0, 0, 0);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.555);
 	font-weight: bold;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
