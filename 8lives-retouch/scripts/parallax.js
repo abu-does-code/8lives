@@ -35,9 +35,9 @@ gsap.from("#abtuh",{
 
 //dnt
 
-gsap.from("#dntt",{
+gsap.from("#wrapperd",{
     scrollTrigger : {
         scrub : true
     },
-    x : 150,
+    x : -150,
 })

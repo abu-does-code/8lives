@@ -247,6 +247,7 @@ span:nth-child(18) {
     padding: 10px 25px;
 }
 .title{
+  
     margin-top: 370px;
     font-size: 35px;
     font-weight: 700;
@@ -266,6 +267,7 @@ span:nth-child(18) {
 .about p{
   padding: 0 80px;
   line-height: 1.6;
+  font-size: 20px;
 }
 
 /* ---------donation---------- */
@@ -310,6 +312,11 @@ span:nth-child(18) {
   margin-top: 35px;
   margin-left: 600px;
 } */
+
+.dnt{
+    margin-top: 7rem;
+
+}
 .containerd{
   /* background: #ababab; */
   padding: 10px 0;
@@ -324,7 +331,7 @@ span:nth-child(18) {
 }
 .dnt .wrapperd{
   background: #55abf8;
-  padding: 90px;
+  padding: 120px 90px;
   width: 80%;
   margin-left: 140px;
   /* justify-content: center; */
@@ -335,6 +342,7 @@ span:nth-child(18) {
 }
 .dnt .wrapperd p{
   line-height: 1.6;
+  font-size: 22px;
 }
 .btn1{
   align-items: center; 
@@ -355,11 +363,13 @@ span:nth-child(18) {
   cursor: pointer;
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
   transition: all .3s ease;
+  font-size: 18px;
 
    
 }
 .btn1 button:hover{
   background: #44c08a;
+  transform: translate3d(0,-8px,0);
 }
 /* ============contact========= */
 
@@ -367,9 +377,12 @@ span:nth-child(18) {
   color: #fff;
   background: #262626;
   font-family: "Ubuntu", sans-serif;
-  padding: 30px 45px;
+  padding:50px 45px;
 }
 
+#contact .titl{
+  margin-bottom: 4rem;
+}
 .contact .contact-des {
   display: flex;
   flex-wrap: wrap;
