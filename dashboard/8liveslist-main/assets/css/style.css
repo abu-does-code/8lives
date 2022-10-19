@@ -56,7 +56,10 @@ body {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
+.navigation #tit{
+  font-size: 32px;
+  margin-top: 1rem;
+}
 .navigation ul li:hover,
 .navigation ul li.hovered {
   background-color: var(--white);
@@ -230,6 +233,7 @@ body {
   justify-content: space-between;
   cursor: pointer;
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  transition: all .3s ease;
 }
 
 .cardBox .card .numbers {
